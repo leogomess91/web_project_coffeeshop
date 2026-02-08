@@ -75,11 +75,14 @@
 }
 
 .header__description {
+  position: absolute;
   max-width: 683px;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 28px;
+  top: 355px;
+  left: 80px;
+  margin: 0;
 }
 
 .header__image {
