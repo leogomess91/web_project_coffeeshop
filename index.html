@@ -13,7 +13,6 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="favicon.ico" />
   </head>
@@ -31,7 +30,7 @@
             <li>
               <a href="#reservation" class="nav__link">Reservar uma mesa</a>
             </li>
-            <li><a href="#" class="nav__link">Contatos</a></li>
+            <li><a href="#contacts" class="nav__link">Contatos</a></li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -170,7 +169,40 @@
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="contacts">
+        <div class="footer__content">
+          <img
+            src="images/logo_coffeeshop_light.svg"
+            alt="Logo Triple Espresso"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Mídia social</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="images/facebook_white.svg"
+                    alt="Facebook"
+                    class="footer__social-icon"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link">
+                  <img
+                    src="images/instagram_white.svg"
+                    alt="Instagram"
+                    class="footer__social-icon"
+                  />Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2026 Leandro Gomes</p>
+      </footer>
     </div>
   </body>
 </html>
